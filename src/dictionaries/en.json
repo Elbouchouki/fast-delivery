@@ -1,0 +1,250 @@
+{
+  "appName": "Fast Delivery",
+  "admin": {
+    "shared": {
+      "exportToExcel": "Export to Excel",
+      "yes": "Yes",
+      "no": "No",
+      "toggleColumns": "Toggle Columns",
+      "colHeader": {
+        "asc": "Asc",
+        "desc": "Desc",
+        "hide": "Hide"
+      },
+      "pagination": {
+        "goToLastPage": "Go to last page",
+        "goToNextPage": "Go to next page",
+        "goToPrevious": "Go to previous page",
+        "goToFirstPage": "Go to first page",
+        "rowSelected": "row(s) selected.",
+        "of": "of",
+        "page": "Page",
+        "rowsPerPage": "Rows per page"
+      },
+      "rowActions": {
+        "view": "View",
+        "assignPickupList": "Assign Pickup List",
+        "printPickupList": "Print Pickup List",
+        "printAWB": "Print AWB",
+        "delete": "Delete",
+        "normalFormat": "Normal Format"
+      }
+    },
+    "userNav": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "logout": "Log out"
+    },
+    "layout": {
+      "search": "AWB / SKU number..."
+    },
+    "packed": {
+      "title": "Packed"
+    },
+    "orderGenerated": {
+      "title": "Order Generated",
+      "toolbar": {
+        "generateOrder": "Generate Order",
+        "generateOrderDescription": "Generating an order will create a new order with the same details as the selected order.",
+        "generate": "Generate"
+      },
+      "dataTable": {
+        "noResults": "No results",
+        "labels": {
+          "id": "SR N°",
+          "orderType": "Order Type",
+          "awb": "AWB",
+          "company": "Company",
+          "origin": "Origin",
+          "seller": "Seller",
+          "destination": "Destination",
+          "receiver": "Receiver",
+          "receiverAdress": "Receiver Adress",
+          "receiverMobile": "Receiver Mobile",
+          "payementMode": "Payement Mode"
+        }
+      }
+    },
+    "orderCreated": {
+      "title": "Order Created",
+      "toolbar": {
+        "createOrder": "Create Order",
+        "createOrderDescription": "Creating an order will generate a new order with the selected items.",
+        "create": "Create"
+      },
+      "dataTable": {
+        "noResults": "No results",
+        "labels": {
+          "id": "SR N°",
+          "orderType": "Order Type",
+          "awb": "AWB",
+          "company": "Company",
+          "origin": "Origin",
+          "seller": "Seller",
+          "destination": "Destination",
+          "receiver": "Receiver",
+          "receiverAdress": "Receiver Adress",
+          "receiverMobile": "Receiver Mobile",
+          "payementMode": "Payement Mode"
+        }
+      }
+    },
+    "pickList": {
+      "title": "Pick List",
+      "toolbar": {
+        "awbNumber": "AWB Number",
+        "pickedUpId": "Picked-up ID",
+        "dateBetween": "Date Between",
+        "resetFilters": "Reset Filters",
+        "noResultsFound": "No results found",
+        "clearFilters": "Clear Filters",
+        "selected": "Selected"
+      },
+      "dataTable": {
+        "noResults": "No results",
+        "labels": {
+          "date": "Date",
+          "pickedUp": "Picked Up",
+          "packed": "Packed",
+          "priority": "Priority",
+          "status": "Status",
+          "warehouse": "Warehouse",
+          "pickupId": "Pickup ID",
+          "id": "SR N°"
+        }
+      }
+    },
+    "deliveryManifest": {
+      "title": "Delivery Manifest"
+    },
+    "returned": {
+      "title": "Returned"
+    },
+    "delivered": {
+      "title": "Delivered"
+    },
+    "dispatched": {
+      "title": "Dispatched",
+      "placeholder": "Enter SR no. to dispatch the order",
+      "dispatch": "dispatch",
+      "message": "The oreder dispatched successfully",
+      "error": "The SR no. is incorrect",
+      "alertTitle": "Succeed",
+      "errTitle": "Failed"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "todaysAnalytics": "Today's Analytics",
+      "shippementsAnalytics": "Shippements Analytics",
+      "recentShippements": "Recent Shippements"
+    },
+    "profile": {
+      "title": "Profile",
+      "details": "Details",
+      "email": "Email",
+      "dob": "Date Of Birth"
+    },
+    "settings": {
+      "accountSettings": "Account Settings",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "firstNameDesc": "Enter your first name",
+      "lastNameDesc": "Enter your last name",
+      "username": "Username",
+      "usernameMin": "Username must be at least 2 characters.",
+      "usernameMax": "Username must not be longer than 30 characters.",
+      "usernameDesc": "This is your public display name.",
+      "email": "Email",
+      "emailDesc": "Enter valid email address.",
+      "dob": "Date Of Birth",
+      "updateProfile": "Update Profile"
+    }
+  },
+  "auth": {
+    "signin": {
+      "signinMethod": "Choose your preferred sign in method",
+      "continueWith": "Or continue with",
+      "noAccount": "Don't have an account?",
+      "action": "Sign in",
+      "resetPassword": {
+        "entreEmail": "Enter your email address and we will send you a verification code",
+        "description": "Enter your email address and we will send you a verification code",
+        "successToast": {
+          "message": "Check your email",
+          "description": "We sent you a 6-digit verification code.",
+          "successMessage": "Password reset successfully."
+        },
+        "continue": "Continue",
+        "continueSROnly": "Continue to reset password verification",
+        "action": "Reset password"
+      }
+    },
+    "signup": {
+      "signupMethod": "Choose your preferred sign up method",
+      "continueWith": "Or continue with",
+      "haveAccount": "Already have an account?",
+      "action": "Sign Up",
+      "continue": "Continue",
+      "continueSROnly": "Continue to email verification page",
+      "successToast": {
+        "message": "Check your email",
+        "description": "We sent you a 6-digit verification code."
+      },
+      "verifyEmail": {
+        "title": "Verify email",
+        "description": "Verify your email address to complete your account creation",
+        "verificationCode": "Verification Code",
+        "action": "Create account"
+      }
+    },
+    "oauthSignin": {
+      "facebook": "Facebook",
+      "google": "Google",
+      "discord": "Discord",
+      "signinWith": "Sign in with",
+      "successToast": {
+        "message": "Sign in success"
+      }
+    },
+    "logout": {
+      "logout": "Log out",
+      "goBack": "Go back"
+    }
+  },
+  "cardLabels": {
+    "orderGenerated": "Order Generated",
+    "orderShipped": "Order Shipped",
+    "orderCreated": "Order Created",
+    "picklistGenerated": "Picklist Generated",
+    "assigingToPickers": "Assiging To Pickers",
+    "packed": "Packed",
+    "dispachedToLM": "Dispached To LM",
+    "totalSellers": "Total Sellers",
+    "totalShipments": "Total Shipments",
+    "totalItems": "Total Items",
+    "totalRTF": "Total RTF",
+    "totalItemsInInventory": "Total Items In Inventory"
+  },
+  "formLabels": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password"
+  },
+  "dateRangePicker": {
+    "placeholder": "Pick a date"
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved"
+  },
+  "picker": {
+    "pickers": "Pickers",
+    "selectPicker": "Select a Picker"
+  },
+  "toast": {
+    "orderCreated": "Order Created Successfully",
+    "orderGenerated": "Order Generated Successfully",
+    "pickListGenerated": "Pick List Generated Successfully",
+    "orderDeleted": "Order Deleted Successfully",
+    "pickListDeleted": "Pick List Deleted Successfully"
+  }
+}

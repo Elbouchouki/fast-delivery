@@ -1,0 +1,250 @@
+{
+  "appName": "توصيل سريع",
+  "admin": {
+    "shared": {
+      "exportToExcel": "Excel تصدير إلى ",
+      "yes": "نعم",
+      "no": "لا",
+      "toggleColumns": "تبديل الأعمدة",
+      "colHeader": {
+        "asc": "تصاعدي",
+        "desc": "تنازلي",
+        "hide": "إخفاء"
+      },
+      "pagination": {
+        "goToLastPage": "الذهاب إلى الصفحة الأخيرة",
+        "goToNextPage": "الذهاب إلى الصفحة التالية",
+        "goToPrevious": "الذهاب إلى الصفحة السابقة",
+        "goToFirstPage": "الذهاب إلى الصفحة الأولى",
+        "rowSelected": "محدد",
+        "of": "من",
+        "page": "صفحة",
+        "rowsPerPage": "صفوف في الصفحة"
+      },
+      "rowActions": {
+        "view": "عرض",
+        "assignPickupList": "تعيين قائمة الاختيار",
+        "printPickupList": "طباعة قائمة الاختيار",
+        "printAWB": "AWB طباعة",
+        "delete": "حذف",
+        "normalFormat": "تنسيق عادي"
+      }
+    },
+    "userNav": {
+      "profile": "الملف الشخصي",
+      "settings": "الإعدادات",
+      "logout": "تسجيل الخروج"
+    },
+    "layout": {
+      "search": "... AWB / SKU بحث"
+    },
+    "packed": {
+      "title": "تم التعبئة"
+    },
+    "orderGenerated": {
+      "title": "تم إنشاء الطلب",
+      "toolbar": {
+        "generateOrder": "إنشاء طلب",
+        "generateOrderDescription": "إنشاء طلب للشحنة المحددة",
+        "generate": "إنشاء"
+      },
+      "dataTable": {
+        "noResults": "لا توجد بيانات متاحة",
+        "labels": {
+          "id": "المعرف",
+          "orderType": "نوع الطلب",
+          "awb": "AWB",
+          "company": "الشركة",
+          "origin": "المصدر",
+          "seller": "البائع",
+          "destination": "الوجهة",
+          "receiver": "المستلم",
+          "receiverAdress": "عنوان المستلم",
+          "receiverMobile": "رقم هاتف المستلم",
+          "payementMode": "طريقة الدفع"
+        }
+      }
+    },
+    "orderCreated": {
+      "title": "تم إنشاء الطلب",
+      "toolbar": {
+        "createOrder": "إنشاء طلب",
+        "createOrderDescription": "إنشاء طلب للشحنة المحددة",
+        "create": "إنشاء"
+      },
+      "dataTable": {
+        "noResults": "لا توجد بيانات متاحة",
+        "labels": {
+          "id": "المعرف",
+          "orderType": "نوع الطلب",
+          "awb": "AWB",
+          "company": "الشركة",
+          "origin": "المصدر",
+          "seller": "البائع",
+          "destination": "الوجهة",
+          "receiver": "المستلم",
+          "receiverAdress": "عنوان المستلم",
+          "receiverMobile": "رقم هاتف المستلم",
+          "payementMode": "طريقة الدفع"
+        }
+      }
+    },
+    "pickList": {
+      "title": "قائمة الانتقاء",
+      "toolbar": {
+        "awbNumber": "AWB رقم ",
+        "pickedUpId": "تم الاختيار",
+        "dateBetween": "تاريخ بين",
+        "resetFilters": "إعادة تعيين المرشحات",
+        "noResultsFound": "لم يتم العثور على نتائج",
+        "clearFilters": "مسح المرشحات",
+        "selected": "محدد"
+      },
+      "dataTable": {
+        "noResults": "لا توجد بيانات متاحة",
+        "labels": {
+          "date": "تاريخ",
+          "pickedUp": "تم الاختيار",
+          "packed": "تم التعبئة",
+          "priority": "أولوية",
+          "status": "الحالة",
+          "warehouse": "المستودع",
+          "pickupId": "رقم الاستلام",
+          "id": "المعرف"
+        }
+      }
+    },
+    "deliveryManifest": {
+      "title": "مستند التسليم"
+    },
+    "returned": {
+      "title": "المعادة"
+    },
+    "delivered": {
+      "title": "تم التوصيل"
+    },
+    "dispatched": {
+      "title": "تم الشحن",
+      "placeholder": "ادخل رقم الطلب حتي يتم ارساله",
+      "dispatch": "ارسال",
+      "message": "تم ارسال الطلب بنجاح",
+      "error": "رقم الطلب غير صحيح",
+      "alertTitle": "تم بنجاح",
+      "errTitle": "فشلت العملية"
+    },
+    "dashboard": {
+      "title": "لوحة التحكم",
+      "todaysAnalytics": "تحليلات اليوم",
+      "shippementsAnalytics": "تحليلات الشحنات",
+      "recentShippements": "الشحنات الحديثة"
+    },
+    "profile": {
+      "title": "الصفحة الشخصية",
+      "details": "التفاصيل",
+      "email": "البريد الإلكتروني",
+      "dob": "تاريخ الميلاد"
+    },
+    "settings": {
+      "accountSettings": "اعدادات الحساب",
+      "firstName": "الاسم الاول",
+      "lastName": "الاسم الاخير",
+      "firstNameDesc": "ادخل اسمك الاول",
+      "lastNameDesc": "ادخل اسمك الاخير",
+      "username": "الاسم",
+      "usernameMin": "يجب ان يتكون الاسم علي حرفين علي الاقل",
+      "usernameMax": "يجب ان يحتوي الاسم علي 30 حرف علي الاكثر",
+      "usernameDesc": "هذا اسم حسابك المرئي",
+      "email": "البريد الإلكتروني",
+      "emailDesc": "ادخل بريد الكتروني واضح",
+      "dob": "تاريخ الميلاد",
+      "updateProfile": "تحديث الحساب"
+    }
+  },
+  "auth": {
+    "signin": {
+      "signinMethod": "اختر طريقة تسجيل الدخول المفضلة لديك",
+      "continueWith": "أو استمر بالتسجيل باستخدام",
+      "noAccount": "ليس لديك حساب؟",
+      "action": "تسجيل الدخول",
+      "resetPassword": {
+        "entreEmail": "أدخل عنوان بريدك الإلكتروني وسنرسل لك رمز التحقق",
+        "description": "أدخل عنوان بريدك الإلكتروني وسنرسل لك رمز التحقق",
+        "successToast": {
+          "message": "تحقق من بريدك الإلكتروني",
+          "description": "لقد أرسلنا لك رمز التحقق المكون من 6 أرقام.",
+          "successMessage": "تم إعادة تعيين كلمة المرور بنجاح."
+        },
+        "continue": "استمرار",
+        "continueSROnly": "المتابعة إلى صفحة التحقق من إعادة تعيين كلمة المرور",
+        "action": "إعادة تعيين كلمة المرور"
+      }
+    },
+    "signup": {
+      "signupMethod": "اختر طريقة التسجيل المفضلة لديك",
+      "continueWith": "أو استمر بالتسجيل باستخدام",
+      "haveAccount": "هل لديك حساب بالفعل؟",
+      "action": "تسجيل",
+      "continue": "استمرار",
+      "continueSROnly": "المتابعة إلى صفحة التحقق من البريد الإلكتروني",
+      "successToast": {
+        "message": "تحقق من بريدك الإلكتروني",
+        "description": "لقد أرسلنا لك رمز التحقق المكون من 6 أرقام."
+      },
+      "verifyEmail": {
+        "title": "تحقق من البريد الإلكتروني",
+        "description": "قم بالتحقق من عنوان بريدك الإلكتروني لإكمال إنشاء حسابك",
+        "verificationCode": "رمز التحقق",
+        "action": "إنشاء حساب"
+      }
+    },
+    "oauthSignin": {
+      "facebook": "فيسبوك",
+      "google": "جوجل",
+      "discord": "ديسكورد",
+      "signinWith": "تسجيل الدخول باستخدام",
+      "successToast": {
+        "message": "تسجيل الدخول بنجاح"
+      }
+    },
+    "logout": {
+      "logout": "تسجيل الخروج",
+      "goBack": "عودة"
+    }
+  },
+  "cardLabels": {
+    "orderGenerated": "تم إنشاء الطلب",
+    "orderShipped": "تم شحن الطلب",
+    "totalShipments": "مجموع الشحنات",
+    "orderCreated": "تم إنشاء الطلب",
+    "picklistGenerated": "تم إنشاء قائمة الاختيار",
+    "assigingToPickers": "قيد التخصيص للمنتقين",
+    "packed": "تم التعبئة",
+    "dispachedToLM": "تم الشحن إلى إدارة المستودع",
+    "totalSellers": "إجمالي البائعين",
+    "totalItems": "إجمالي العناصر",
+    "totalRTF": "RTF إجمالي",
+    "totalItemsInInventory": "إجمالي العناصر في المخزون"
+  },
+  "formLabels": {
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور"
+  },
+  "dateRangePicker": {
+    "placeholder": "اختر تاريخًا"
+  },
+  "footer": {
+    "allRightsReserved": "جميع الحقوق محفوظة"
+  },
+  "picker": {
+    "pickers": "المنتقين",
+    "selectPicker": "حدد المنتقين"
+  },
+  "toast": {
+    "orderCreated": "تم إنشاء الطلب بنجاح",
+    "orderGenerated": "تم إنشاء الطلب بنجاح",
+    "pickListGenerated": "تم إنشاء قائمة الاختيار بنجاح",
+    "orderDeleted": "تم حذف الطلب بنجاح",
+    "pickListDeleted": "تم حذف قائمة الاختيار بنجاح"
+  }
+}
